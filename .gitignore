@@ -1,0 +1,40 @@
+# Images (but allow specific ones in detected_defects)
+*.jpg
+*.jpeg
+*.JPG
+*.JPEG
+*.png
+*.PNG
+!detected_defects/.gitkeep
+!detected_defects/Copy of IMG03448.JPG
+!detected_defects/Copy of IMG03422.JPG
+
+# Dataset images
+dataset/train/images/*
+dataset/val/images/*
+!dataset/train/images/.gitkeep
+!dataset/val/images/.gitkeep
+
+# Test images
+images_test/*
+!images_test/.gitkeep
+
+# Detected defects (ignore all except specific images)
+detected_defects/*
+!detected_defects/.gitkeep
+!detected_defects/Copy of IMG03448.JPG
+!detected_defects/Copy of IMG03422.JPG
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Pixi environment
+.pixi/
+
+# User settings (contains OS-specific paths)
+settings.json
+
+# Pretrained models (YOLO downloads them automatically)
+models/pretrained/*.pt
+
