@@ -1,0 +1,14 @@
+# YOLO Dataset Configuration for Powerline Detection
+# Model: YOLO11-based detector for powerline components
+# Classes: pylon, conductor, insulator, pylon_fissure
+
+path: dataset
+train: train/images
+val: val/images
+
+# Classes
+names:
+  0: pylon
+  1: conductor
+  2: insulator
+  3: pylon_fissure

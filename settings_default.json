@@ -1,0 +1,17 @@
+{
+  "base_path": "",
+  "dataset_yaml": "dataset.yaml",
+  "model_name": "models/pretrained/yolo11n.pt",
+  "model_output_dir": "models",
+  "model_output_name": "powerline_detector",
+  "test_images_dir": "images_test",
+  "output_json": "detections.json",
+  "output_csv": "detections.csv",
+  "confidence_threshold": 0.05,
+  "epochs": 200,
+  "image_size": 640,
+  "batch_size": 16,
+  "workers": 4,
+  "_note": "YOLO automatically saves to model_output_dir/model_output_name/weights/best.pt and last.pt"
+}
+
